@@ -26,8 +26,9 @@ nav {
 }
 
 .logo img {
-    height: 50px;
+    height: 40px;
     width: auto;
+    border-radius: 50%;
 }
 
 nav ul {
