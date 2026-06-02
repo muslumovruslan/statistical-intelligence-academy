@@ -49,3 +49,43 @@ main {
 h1 {
     color: #38BDF8;
 }
+/* Hero Section */
+
+.hero {
+    max-width: 900px;
+    margin: 120px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    background-color: #38BDF8;
+    color: #0B1220;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: white;
+}
