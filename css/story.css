@@ -1,1 +1,27 @@
+/* Story Section */
 
+.story-section {
+    max-width: 900px;
+    margin: 120px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.story-section h2 {
+    color: #38BDF8;
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+}
+
+.story-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.academy-motto {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #60A5FA;
+}
