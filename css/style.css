@@ -1,1 +1,11 @@
-/* Statistical Intelligence Academy Styles */
+body {
+    background-color: #0B1220;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    color: #38BDF8;
+}
