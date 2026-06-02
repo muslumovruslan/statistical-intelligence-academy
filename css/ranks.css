@@ -1,111 +1,130 @@
 /* ==========================================
-   ACADEMY RANKS
+ACADEMY RANKS
 ========================================== */
 
 .ranks-section {
-    padding: 80px 5%;
-    text-align: center;
+padding: 80px 5%;
+text-align: center;
 }
 
 .ranks-section h2 {
-    color: #38BDF8;
-    font-size: 2.4rem;
-    margin-bottom: 20px;
+color: #38BDF8;
+font-size: 2.4rem;
+margin-bottom: 20px;
 }
 
 .ranks-intro {
-    max-width: 700px;
-    margin: 0 auto 50px;
-    color: #d6e5f3;
-    line-height: 1.8;
+max-width: 700px;
+margin: 0 auto 50px;
+color: #d6e5f3;
+line-height: 1.8;
 }
 
 /* Rank Track */
 
 .ranks-track {
-    display: flex;
-    gap: 30px;
+display: flex;
+gap: 30px;
 
-    overflow-x: auto;
+```
+justify-content: center;
+align-items: stretch;
 
-    padding: 20px 10px 30px;
+overflow-x: auto;
 
-    scroll-behavior: smooth;
+padding: 20px 20px 30px;
 
-    justify-content: flex-start;
+scroll-behavior: smooth;
 
-    scrollbar-width: thin;
+scrollbar-width: thin;
+```
+
 }
 
 /* Rank Cards */
 
 .rank-card {
-    flex: 0 0 260px;
+flex: 0 0 260px;
 
-    background: rgba(255, 255, 255, 0.05);
+```
+background: rgba(255, 255, 255, 0.05);
 
-    border: 1px solid rgba(255, 255, 255, 0.12);
+border: 1px solid rgba(255, 255, 255, 0.12);
 
-    border-radius: 18px;
+border-radius: 18px;
 
-    padding: 25px;
+padding: 25px;
 
-    text-align: center;
+text-align: center;
 
-    transition: all 0.3s ease;
+transition: all 0.3s ease;
 
-    backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
+```
+
 }
 
 .rank-card:hover {
-    transform: translateY(-6px);
+transform: translateY(-6px);
 
-    border-color: #38BDF8;
+```
+border-color: #38BDF8;
 
-    box-shadow: 0 0 20px rgba(56, 189, 248, 0.25);
+box-shadow: 0 0 20px rgba(56, 189, 248, 0.25);
+```
+
 }
 
 /* Rank Icon */
 
 .rank-icon {
-    font-size: 3.5rem;
-    margin-bottom: 15px;
+font-size: 3.5rem;
+margin-bottom: 15px;
 }
 
 /* Rank Title */
 
 .rank-card h3 {
-    color: #38BDF8;
+color: #38BDF8;
 
-    font-size: 1.4rem;
+```
+font-size: 1.4rem;
 
-    margin-bottom: 20px;
+margin-bottom: 20px;
+```
+
 }
 
 /* Rank Unlock */
 
 .rank-unlock {
-    margin-top: 20px;
+margin-top: 20px;
 
-    padding-top: 15px;
+```
+padding-top: 15px;
 
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+border-top: 1px solid rgba(255, 255, 255, 0.1);
 
-    color: #60A5FA;
+color: #60A5FA;
 
-    font-weight: 600;
+font-weight: 600;
+```
+
 }
 
 /* Master Rank */
 
 .master-rank {
-    border-color: gold;
+border-color: gold;
 }
 
 .master-rank:hover {
-    border-color: gold;
+border-color: gold;
 
-    box-shadow:
-        0 0 20px rgba(255, 215, 0, 0.5),
-        0 0 40px rgba(255, 215, 0, 0.2);
+```
+box-shadow:
+    0 0 20px rgba(255, 215, 0, 0.5),
+    0 0 40px rgba(255, 215, 0, 0.2);
+```
+
 }
