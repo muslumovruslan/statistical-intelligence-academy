@@ -28,3 +28,44 @@
 
     scrollbar-width: thin;
 }
+.rank-card {
+    min-width: 220px;
+
+    background: rgba(255,255,255,0.04);
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    border-radius: 16px;
+
+    padding: 25px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.rank-card:hover {
+    transform: translateY(-6px);
+
+    border-color: #38BDF8;
+
+    box-shadow: 0 0 20px rgba(56,189,248,0.25);
+}
+
+.rank-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.rank-card h3 {
+    color: #38BDF8;
+    margin-bottom: 15px;
+}
+
+.rank-unlock {
+    margin-top: 15px;
+
+    color: #60A5FA;
+
+    font-size: 0.95rem;
+}
