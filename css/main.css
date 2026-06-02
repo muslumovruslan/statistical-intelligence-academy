@@ -1,1 +1,15 @@
+body {
+    background-color: #0B1220;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
 
+main {
+    text-align: center;
+    margin-top: 120px;
+}
+
+h1 {
+    color: #38BDF8;
+}
