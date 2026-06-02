@@ -126,3 +126,91 @@ h1 {
     font-weight: bold;
     color: #60A5FA;
 }
+/* ==========================================
+   YOUR ACADEMY JOURNEY
+========================================== */
+
+.journey-section {
+    padding: 100px 5%;
+    text-align: center;
+}
+
+.journey-section h2 {
+    color: #43b5ff;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.journey-intro {
+    max-width: 700px;
+    margin: 0 auto 60px;
+    color: #d6e5f3;
+    line-height: 1.8;
+}
+
+.journey-path {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.journey-rank {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rank-circle {
+    width: 90px;
+    height: 90px;
+
+    border-radius: 50%;
+
+    background: #10264d;
+
+    border: 3px solid #43b5ff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #43b5ff;
+
+    font-size: 1.8rem;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.rank-circle:hover {
+    transform: scale(1.08);
+
+    box-shadow:
+        0 0 20px rgba(67,181,255,0.6),
+        0 0 40px rgba(67,181,255,0.3);
+}
+
+.rank-circle.master {
+    border-color: gold;
+    color: gold;
+}
+
+.journey-rank h3 {
+    margin-top: 15px;
+    color: white;
+}
+
+.journey-line {
+    width: 80px;
+    height: 4px;
+
+    background: linear-gradient(
+        to right,
+        #43b5ff,
+        #79d0ff
+    );
+
+    margin: 0 10px;
+}
