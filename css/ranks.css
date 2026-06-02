@@ -19,29 +19,42 @@
     color: #d6e5f3;
     line-height: 1.8;
 }
+
+/* Rank Track */
+
 .ranks-track {
     display: flex;
-    gap: 25px;
+    gap: 30px;
+
     overflow-x: auto;
 
-    padding: 20px 10px;
+    padding: 20px 10px 30px;
+
+    scroll-behavior: smooth;
+
+    justify-content: flex-start;
 
     scrollbar-width: thin;
 }
+
+/* Rank Cards */
+
 .rank-card {
-    min-width: 220px;
+    flex: 0 0 260px;
 
-    background: rgba(255,255,255,0.04);
+    background: rgba(255, 255, 255, 0.05);
 
-    border: 1px solid rgba(255,255,255,0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
 
-    border-radius: 16px;
+    border-radius: 18px;
 
     padding: 25px;
 
     text-align: center;
 
-    transition: 0.3s;
+    transition: all 0.3s ease;
+
+    backdrop-filter: blur(10px);
 }
 
 .rank-card:hover {
@@ -49,32 +62,50 @@
 
     border-color: #38BDF8;
 
-    box-shadow: 0 0 20px rgba(56,189,248,0.25);
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.25);
 }
 
+/* Rank Icon */
+
 .rank-icon {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 15px;
 }
+
+/* Rank Title */
 
 .rank-card h3 {
     color: #38BDF8;
-    margin-bottom: 15px;
+
+    font-size: 1.4rem;
+
+    margin-bottom: 20px;
 }
 
+/* Rank Unlock */
+
 .rank-unlock {
-    margin-top: 15px;
+    margin-top: 20px;
+
+    padding-top: 15px;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 
     color: #60A5FA;
 
-    font-size: 0.95rem;
+    font-weight: 600;
 }
+
+/* Master Rank */
+
 .master-rank {
     border-color: gold;
 }
 
 .master-rank:hover {
+    border-color: gold;
+
     box-shadow:
-        0 0 20px rgba(255,215,0,0.5),
-        0 0 40px rgba(255,215,0,0.2);
+        0 0 20px rgba(255, 215, 0, 0.5),
+        0 0 40px rgba(255, 215, 0, 0.2);
 }
