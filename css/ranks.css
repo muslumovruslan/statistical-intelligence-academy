@@ -1,1 +1,21 @@
+/* ==========================================
+   ACADEMY RANKS
+========================================== */
 
+.ranks-section {
+    padding: 80px 5%;
+    text-align: center;
+}
+
+.ranks-section h2 {
+    color: #38BDF8;
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+.ranks-intro {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #d6e5f3;
+    line-height: 1.8;
+}
