@@ -69,3 +69,12 @@
 
     font-size: 0.95rem;
 }
+.master-rank {
+    border-color: gold;
+}
+
+.master-rank:hover {
+    box-shadow:
+        0 0 20px rgba(255,215,0,0.5),
+        0 0 40px rgba(255,215,0,0.2);
+}
